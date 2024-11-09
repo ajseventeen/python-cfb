@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cfbd = "*"
+bs4 = "*"
+tqdm = "*"
+requests = "*"
+matplotlib = "*"
+tabulate = "*"
+requests-cache = "*"
+numpy = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
